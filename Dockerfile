@@ -11,8 +11,3 @@ RUN mkdir /nodegit && \
     apk add python tzdata pkgconfig build-base
        
 RUN npm i nodegit
-
-# Remove unnecessary packages and tools
-RUN apk del python tzdata pkgconfig build-base && \
-    rm package-lock.json && \
-    rm -rf /tmp/* /var/cache/apk/*
