@@ -1,10 +1,10 @@
 ### nodegit-lts-alpine
 This image contains nodegit builded veriosn based on node-js LTS version and alpine image.
 
-[See Image Details](https://github.com/pushpak1300/nodegit-lts-alpine/packages/830543)
+[See Image Details](https://hub.docker.com/repository/docker/pushpak1300/nodegit-lts-alpine)
 
 ```bash
-docker pull docker.pkg.github.com/pushpak1300/nodegit-lts-alpine/nodegitlts-image:latest
+docker pull pushpak1300/nodegit-lts-alpine
 ```
 
 ### Available Tools
