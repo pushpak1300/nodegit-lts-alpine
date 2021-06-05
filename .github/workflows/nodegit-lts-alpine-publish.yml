@@ -1,4 +1,4 @@
-name: php-8.0-publish
+name: nodegit-lts-alpine-publish
 on:
   release:
     types: [published]
@@ -23,5 +23,5 @@ jobs:
         with:
           push: true
           tags: |
-            docker.pkg.github.com/${{ github.repository }}:${{ github.sha }}
-            docker.pkg.github.com/${{ github.repository }}:${{ github.ref }}
+            docker.pkg.github.com/${{ github.repository }}/nodegitlts-image:${{ github.sha }}
+            docker.pkg.github.com/${{ github.repository }}/nodegitlts-image:latest
