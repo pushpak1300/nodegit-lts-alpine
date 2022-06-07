@@ -10,4 +10,4 @@ RUN mkdir /nodegit && \
     apk add git libgit2-dev && \
     apk add python tzdata pkgconfig build-base
        
-RUN npm i nodegit
+RUN npm i -g nodegit
